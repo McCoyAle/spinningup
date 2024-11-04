@@ -83,6 +83,9 @@ Installing Spinning Up
     cd spinningup
     pip install -e .
 
+    *Note* I had to use `•	pip wheel --no-deps -w dist .` to move past this step. A reference was deprecated and I believe the redownloading of dependencies helped.
+    Will need to look into this more, getting it up and running was the priority.
+
 .. admonition:: You Should Know
 
     Spinning Up defaults to installing everything in Gym **except** the MuJoCo environments. In case you run into any trouble with the Gym installation, check out the `Gym`_ github page for help. If you want the MuJoCo environments, see the optional installation section below.
